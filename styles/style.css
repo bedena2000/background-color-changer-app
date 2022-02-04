@@ -1,0 +1,36 @@
+/* Style Wrapper Block */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  font-family: 'Supermercado One', cursive;
+  font-size: 16px;
+}
+
+/* Inherit width and height, and background color from parent element */
+
+.body-wrapper {
+  width: inherit;
+  height: inherit;
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Stylized Click Me Button */
+
+.button {
+  width: 100px;
+  height: 40px;
+  font-family: inherit;
+  background-color: transparent;
+  border: 0.3px dash black;
+  cursor: pointer;
+  border-radius: 5px;
+  color: yellow;
+}
